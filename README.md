@@ -95,9 +95,11 @@ KL散度（KL divergence），这是统计中的一个概念，是衡量两种�
 
 
 ![1 ](https://user-images.githubusercontent.com/74494790/171400894-3fc6f1d3-5525-4b53-a555-ffe6a2bf5614.jpg)
+
 ![2](https://user-images.githubusercontent.com/74494790/171401045-ab081047-ba27-4e01-816f-d9bbe5248b5c.jpg)
 
 ![3](https://user-images.githubusercontent.com/74494790/171400955-43f459f4-c770-4072-b2f5-bacfcc81a0df.jpg)
+
 ![4](https://user-images.githubusercontent.com/74494790/171400885-de1eb44a-3fef-44b4-9ca0-43b7913c43b4.jpg)
 
 
@@ -123,13 +125,14 @@ $P_G(x)=\int_z P_{prior}(z)I_{|G(z)=x|}dz$
 
 其中
 
-$I_{G(z)=x}=\begin{cases}0 &G(z)\ne x\\1&G(z)=x \end{cases}$
+$I_{G(z)=x}=\begin{cases}0 &G(z)\ne x\ \ 1&G(z)=x \end{cases}$
 
 可见，实际上$P_G（x）$不可求出
 
 ## 2.3.GAN最优化问题可解的数学证明
 
-详见原论文**4.1 Global Optimality of pg = pdata**部分。https://blog.csdn.net/stalbo/article/details/79283399根据原论文说的也非常好
+详见原论文**4.1 Global Optimality of pg = pdata**部分。https://blog.csdn.net/stalbo/article/details/79283399 
+根据原论文说的也非常好
 
 
 
